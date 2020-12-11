@@ -3,5 +3,4 @@ let celsiusTemp = kelvinTemp - 273.15;
 
 let fahrenheitTemp = Math.floor(celsiusTemp * (9 / 5) + 32);
 
-
-console.log("the temperature is " + fahrenheitTemp +" degrees.");
+console.log(`the temperature is ${fahrenheitTemp} degrees.`);
